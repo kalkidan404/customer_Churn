@@ -189,9 +189,7 @@ customer_Churn/
 └── requirements.txt
 ```
 
-The notebook used for exploration and training should also be included in the repository. Add its actual filename to this structure when documenting your final project files.
-
-The raw dataset is shown for reference but is not intended to be committed to Git.
+U can use the raw_data it is put there for reference it isnt in the github
 
 - `churn_model.pkl` — Saved preprocessing and Logistic Regression pipeline.
 - `churn_threshold.pkl` — Saved classification threshold of 0.40.
@@ -203,11 +201,9 @@ The raw dataset is shown for reference but is not intended to be committed to Gi
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/kalkidan404/customer_Churn>
 cd customer_Churn
 ```
-
-Replace `<your-repository-url>` with the URL of your GitHub repository.
 
 ### 2. Create a virtual environment
 
@@ -223,16 +219,8 @@ Activate the environment on Windows:
 
 ### 3. Install dependencies
 
-If a `requirements.txt` file is available:
-
 ```bash
 pip install -r requirements.txt
-```
-
-Otherwise, install the required packages:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost joblib jupyter
 ```
 
 ## Loading the Saved Model
